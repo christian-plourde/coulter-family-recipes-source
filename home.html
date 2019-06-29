@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Coulter Family Recipes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="web_config/utilities.js"></script>
+    <script src="web_config/load_config.js"></script>
+    <script src="web_config/home_script.js"></script>
+    <script src="web_config/event_handlers.js"></script>
+    <link rel="stylesheet" href="web_config/home_style.css" />
+</head>
+<body>
+	<div id="title_bar">
+        <header id="page_title" onclick="location.reload()" onmouseenter="category_mouse_enter()" onmouseout="category_mouse_out()">Coulter Family Recipes</header>
+        <header class="category_name" onmouseenter="category_mouse_enter()" onmouseout="category_mouse_out()" onclick="category_click()">Breakfast</header>
+        <header class="category_name" onmouseenter="category_mouse_enter()" onmouseout="category_mouse_out()" onclick="category_click()">Dinner</header>
+        <header class="category_name" onmouseenter="category_mouse_enter()" onmouseout="category_mouse_out()" onclick="category_click()">Dessert</header>
+        <header class="category_name" onmouseenter="category_mouse_enter()" onmouseout="category_mouse_out()" onclick="category_click()">Drinks</header>
+        <header class="category_name" onmouseenter="category_mouse_enter()" onmouseout="category_mouse_out()" onclick="category_click()">Soups</header>
+        <header class="category_name" onmouseenter="category_mouse_enter()" onmouseout="category_mouse_out()" onclick="category_click()">Salad</header>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div id="search_bar">
+        <input id="search_input" placeholder="Search for a recipe by name" type="search"/>
+        <img id="search_icon" src="web_config/images/search_icon.png" onclick="search_click()"/>
+    </div>
+    <div id="recipe_list">
+        <p class="recipe_list_title">Recent Recipes</p>
+    </div>
+    <img id="plus_icon" src="web_config/images/plus_icon_navy.png" onmouseenter="plus_icon_mouse_enter()" onmouseout="plus_icon_mouse_out()" onclick="plus_icon_click()"/>
+</body>

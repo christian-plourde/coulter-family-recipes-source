@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <loadIngredientsURL>http://192.168.2.12/coulter_family_recipes.asmx/load_ingredients</loadIngredientsURL>
+  <loadDirectionsURL>http://192.168.2.12/coulter_family_recipes.asmx/load_directions</loadDirectionsURL>
+  <getPopularRecipesURL>http://192.168.2.12/coulter_family_recipes.asmx/get_popular_recipes</getPopularRecipesURL>
+  <getRecipesByCategoryURL>http://192.168.2.12/coulter_family_recipes.asmx/get_recipes_by_category</getRecipesByCategoryURL>
+  <insertRecipeNameURL>http://192.168.2.12/coulter_family_recipes.asmx/insert_recipe_name</insertRecipeNameURL>
+  <insertSubRecipeURL>http://192.168.2.12/coulter_family_recipes.asmx/insert_subrecipe</insertSubRecipeURL>
+  <setRecipeTypeURL>http://192.168.2.12/coulter_family_recipes.asmx/set_recipe_type</setRecipeTypeURL>
+  <insertRecipeIngredientURL>http://192.168.2.12/coulter_family_recipes.asmx/insert_recipe_ingredient</insertRecipeIngredientURL>
+  <insertRecipeDirectionURL>http://192.168.2.12/coulter_family_recipes.asmx/insert_recipe_direction</insertRecipeDirectionURL>
+  <getUnitTypesURL>http://192.168.2.12/coulter_family_recipes.asmx/get_unit_types</getUnitTypesURL>
+  <getRecipeNamesURL>http://192.168.2.12/coulter_family_recipes.asmx/get_recipe_names</getRecipeNamesURL>
+  <getRecipeCategoriesURL>http://192.168.2.12/coulter_family_recipes.asmx/get_recipe_categories</getRecipeCategoriesURL>
+  <updateRecipeAccessTimeURL>http://192.168.2.12/coulter_family_recipes.asmx/update_recipe_access_time</updateRecipeAccessTimeURL>
+  <deleteRecipeURL>http://192.168.2.12/coulter_family_recipes.asmx/delete_recipe</deleteRecipeURL>
+  <searchByNameURL>http://192.168.2.12/coulter_family_recipes.asmx/search_by_name</searchByNameURL>
+  <getImageFilePathURL>http://192.168.2.12/coulter_family_recipes.asmx/get_file_name_for_recipe_image</getImageFilePathURL>
+  <uploadFileURL>coulter_family_recipes.asmx/upload_file</uploadFileURL>
+  <recipeImagesDirectoryURL>http://192.168.2.12/Recipe_Images/</recipeImagesDirectoryURL>
+</root>

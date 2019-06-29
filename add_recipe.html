@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Add a new recipe</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="web_config/utilities.js"></script>
+    <script src="web_config/event_handlers.js"></script>
+    <script src="web_config/load_config.js"></script>
+    <script src="web_config/add_recipe_script.js"></script>
+    <link rel="stylesheet" href="web_config/add_recipe_style.css" />
+</head>
+<body>
+    <div id="title_bar">Add Recipe
+        <img id="home_button" src="web_config/images/home_light_blue.png" onclick="add_recipe_home_click()"/>
+    </div>
+    <div id="recipe_name_div">
+        <input id="recipe_name" class ="add_recipe_input" placeholder="New Recipe Name"/>
+    </div>
+    <div id="parent_recipe_name_div">
+        <select id="parent_recipe_name" class="add_recipe_input"></select>
+    </div>
+    <div id="recipe_type_div">
+        <select class="add_recipe_drop_down" id="recipe_type_select"></select>
+    </div>
+    <div id="ingredients_div">
+        &nbsp Add Ingredients
+        <img id="add_ingredients_button" src="web_config/images/plus_icon_navy.png" onmouseenter="plus_icon_mouse_enter()" onmouseout="plus_icon_mouse_out()" 
+             onclick="add_new_ingredient_input()"/>
+        <br />
+        <br />
+    </div>
+    <div id="directions_div">
+        &nbsp Add Directions
+        <img id="add_directions_button" src="web_config/images/plus_icon_navy.png" onmouseenter="plus_icon_mouse_enter()" onmouseout="plus_icon_mouse_out()"
+             onclick="add_new_direction_input()" />
+        <br />
+        <br />
+    </div>
+    <div id="submission_div">
+        <button id="add_recipe_button" onclick="add_recipe_button_click()">Add Recipe</button>
+    </div>
+
+</body>
+</html>
